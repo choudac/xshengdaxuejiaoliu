@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   end
 
   namespace :account do
-    resources :goups 
+    resources :groups
+    resources :posts 
   end
   root 'groups#index'
 end
