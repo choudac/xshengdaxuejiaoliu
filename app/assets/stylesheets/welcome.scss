@@ -1,3 +1,46 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.landing-page {
+  margin-bottom: 60px;
+  background-color: white;
+
+  .title {
+    color: white;
+    letter-spacing: 3px;
+  }
+
+  .section-features {
+    .image-container img {
+      width: 100%;
+    }
+  }
+
+  .section h2 {
+    margin-top: 100px;
+    font-family: "Helvetica Neue";
+  }
+
+  .section-bottom {
+    width: 100%;
+    background-image: url("https://ws2.sinaimg.cn/large/006tKfTcgy1fgvf9jdghoj31kw0b6k3s.jpg");
+    border-radius: 0 0 6px 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title {
+      color: black;
+      text-shadow: 0 4px 10px #b3d9ff;
+      margin-bottom: 60;
+    }
+
+    .description {
+      color: #a2a2a2;
+      margin-bottom: 20px;
+    }
+  }
+
+}
